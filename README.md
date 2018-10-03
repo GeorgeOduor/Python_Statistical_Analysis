@@ -1,5 +1,4 @@
 ![GitHub Logo](/loanPredictiongraphs/python.png)
-Format: ![Python](url)
 
 # Python_Statistical_Analysis
 
