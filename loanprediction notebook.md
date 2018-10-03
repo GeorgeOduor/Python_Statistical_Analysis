@@ -37,44 +37,29 @@ It is important to have a copy of the original data so that any changes made in 
 train_original = train.copy()
 test_original = test.copy()
 ```
-
 # Understanding the Data
 In this section i will attempt to understand the shape of my data sets.The names of different features ,the dimension and any other thing of interest.
-
 
 ```python
 train.columns
 ```
-
-
-
-
-    Index([u'Loan_ID', u'Gender', u'Married', u'Dependents', u'Education',
+Index([u'Loan_ID', u'Gender', u'Married', u'Dependents', u'Education',
            u'Self_Employed', u'ApplicantIncome', u'CoapplicantIncome',
            u'LoanAmount', u'Loan_Amount_Term', u'Credit_History', u'Property_Area',
            u'Loan_Status'],
           dtype='object')
-
-
-
+          
 The train dataset has 12 explanatory variables and one taerget variable ,i.e Loan Status .
-
 
 ```python
 test.columns
-```
-
-
-
-
+```1§§§§§§§§§§§§§§§§§§1
     Index([u'Loan_ID', u'Gender', u'Married', u'Dependents', u'Education',
            u'Self_Employed', u'ApplicantIncome', u'CoapplicantIncome',
            u'LoanAmount', u'Loan_Amount_Term', u'Credit_History',
            u'Property_Area'],
           dtype='object')
-
-
-
+          
 The train data set has all the exlplanatory variable except one predicted variable.
 
 
