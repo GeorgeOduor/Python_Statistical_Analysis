@@ -149,7 +149,7 @@ counts.plot.bar(title = "Loan Status")
 
 
 
-![png](output_20_2.png)
+![png](/loanPredictiongraphs/output_20_2.png)
 
 
 ## Independent variables(Categorical)
