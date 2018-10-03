@@ -171,73 +171,16 @@ train['Credit_History'].value_counts(normalize = True).plot.bar(title = "Credit_
 
 plt.show()
 ```
-
-
-
-
     <Figure size 432x288 with 0 Axes>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a21886890>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a21886890>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a162f35d0>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a162f35d0>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a2198ead0>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a2198ead0>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a219f4fd0>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a219f4fd0>
-
-
-
-
-![png](output_22_9.png)
-
+![png](/loanPredictiongraphs/output_22_9.png)
 
 * We can see that 80% of the applicants in the test data set are males.
 * About 65% of the applicants are married.
@@ -245,7 +188,6 @@ plt.show()
 * 85% have repaid their debts.
 
 ## Independent Variable(Ordinal)
-
 
 ```python
 plt.figure(1)
@@ -259,62 +201,23 @@ plt.subplot(133)
 train['Property_Area'].value_counts(normalize = True).plot.bar(title = 'Property_Area')
 
 ```
+           <Figure size 432x288 with 0 Axes>
 
+           <matplotlib.axes._subplots.AxesSubplot at 0x1a21a58b90>
 
+           <matplotlib.axes._subplots.AxesSubplot at 0x1a21a58b90>
 
+           <matplotlib.axes._subplots.AxesSubplot at 0x1a21eea850>
 
-    <Figure size 432x288 with 0 Axes>
+           <matplotlib.axes._subplots.AxesSubplot at 0x1a21eea850>
 
+           <matplotlib.axes._subplots.AxesSubplot at 0x1a221bdf90>
 
+           <matplotlib.axes._subplots.AxesSubplot at 0x1a221bdf90>
 
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a21a58b90>
-
-
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a21a58b90>
-
-
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a21eea850>
-
-
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a21eea850>
-
-
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a221bdf90>
-
-
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a221bdf90>
-
-
-
-
-![png](output_25_7.png)
-
+![png](/loanPredictiongraphs/output_25_7.png)
 
 ## Independent Variable(Numerical)
-
 
 ```python
 plt.figure(1)
@@ -325,47 +228,20 @@ plt.subplot(1,2,2)
 train['ApplicantIncome'].plot.box()
 ```
 
-
-
-
     <Figure size 432x288 with 0 Axes>
 
-
-
-
-
+    <matplotlib.axes._subplots.AxesSubplot at 0x1a221b1590>
 
     <matplotlib.axes._subplots.AxesSubplot at 0x1a221b1590>
 
-
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a221b1590>
-
-
-
-
-
-
+    <matplotlib.axes._subplots.AxesSubplot at 0x1a222c1bd0>
+    
     <matplotlib.axes._subplots.AxesSubplot at 0x1a222c1bd0>
 
 
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a222c1bd0>
-
-
-
-
-![png](output_27_5.png)
-
+![png](/loanPredictiongraphs/output_27_5.png)
 
 The box plot suggests prescence of outliers in our data and the density plot suggest a right tailed screnario.W can futher unfer that this data is not normaly distributed.
-
 
 ```python
 #Segregate type income eaners by education.
@@ -373,27 +249,13 @@ train.boxplot(column = 'ApplicantIncome',by ='Education')
 plt.suptitle('')
 #Text(.5,.98,'')
 ```
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a223868d0>
-
-
-
-
-
 
     Text(0.5,0.98,'')
 
-
-
-
-![png](output_29_2.png)
-
+![png](/loanPredictiongraphs/output_29_2.png)
 
 More graduates gave a higher inceoe as compared to nin graduates.
-
 
 ```python
 plt.figure(1)
@@ -406,44 +268,14 @@ train['CoapplicantIncome'].plot.box(figsize = (16,5))
 plt.show()
 ```
 
-
-
-
     <Figure size 432x288 with 0 Axes>
 
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a2257a990>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a2257a990>
-
-
-
-
-
-
+    <matplotlib.axes._subplots.AxesSubplot at 0x1a2261ff10>
     <matplotlib.axes._subplots.AxesSubplot at 0x1a2261ff10>
 
-
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a2261ff10>
-
-
-
-
-![png](output_31_5.png)
-
+![png](/loanPredictiongraphs/output_31_5.png)
 
 Majority of the coapplicants income ranges from 0 to 5000.
 There is a prescence of outliers in the applicant income .
@@ -456,52 +288,17 @@ plt.figure(1)
 plt.subplot(121)
 df = train.dropna()
 sns.distplot(df['LoanAmount']);
-
 plt.subplot(122)
 train['LoanAmount'].plot.box(figsize = (16,5))
-
 plt.show()
 ```
-
-
-
-
     <Figure size 432x288 with 0 Axes>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a226455d0>
-
-
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a226455d0>
-
-
-
-
-
-
+    <matplotlib.axes._subplots.AxesSubplot at 0x1a22691950>
     <matplotlib.axes._subplots.AxesSubplot at 0x1a22691950>
 
-
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a22691950>
-
-
-
-
-![png](output_33_5.png)
-
-
+![png](/loanPredictiongraphs/.png)
 
 ```python
 train['LoanAmount'].plot.box()
@@ -515,8 +312,7 @@ train['LoanAmount'].plot.box()
 
 
 
-![png](output_34_1.png)
-
+![png](/loanPredictiongraphs/output_34_1.png)
 
 # Bivariate Analysis
 In this type of analysis we will look into the relationshio between dependent variable and independent variables one by one.
@@ -535,17 +331,8 @@ I will first look at the relationship betwen the categorical independent variabl
 Gender = pd.crosstab(train['Gender'],train['Loan_Status'])
 Gender.div(Gender.sum(1).astype(float),axis = 0).plot(kind = "bar",stacked = True,figsize = (4,4))
 ```
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a22cf1d10>
-
-
-
-
-![png](output_37_1.png)
-
+![png](/loanPredictiongraphs/output_37_1.png)
 
 The propotion of males and females approved and not approved seems to be equal.
 
@@ -620,23 +407,11 @@ plt.show()
 
     <matplotlib.axes._subplots.AxesSubplot at 0x1a22e4de90>
 
-
-
-
-![png](output_40_2.png)
-
-
-
-
+![png](/loanPredictiongraphs/output_40_2.png)
 
     <matplotlib.axes._subplots.AxesSubplot at 0x1a22ed7cd0>
 
-
-
-
-![png](output_40_4.png)
-
-
+![png](/loanPredictiongraphs/output_40_4.png)
 
 ```python
 Credit_History = pd.crosstab(train['Credit_History'],train['Loan_Status'])
@@ -647,26 +422,13 @@ Property_Area.div(Property_Area.sum(1).astype(float),axis = 0).plot(kind = 'bar'
 plt.show()
 ```
 
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a22e42b50>
 
-
-
-
-![png](output_41_1.png)
-
-
-
-
+![png](/loanPredictiongraphs/output_41_1.png)
 
     <matplotlib.axes._subplots.AxesSubplot at 0x1a230a80d0>
 
-
-
-
-![png](output_41_3.png)
+![png](/loanPredictiongraphs/output_41_3.png)
 
 
 * Number of people gting their loans approved is higher in semi urban areas as compared to other places
@@ -675,21 +437,13 @@ plt.show()
 ## Numerical Independent Variable Vs Target Variable.
 I will find the mean income for people whose loans have been approved against those whose loanse have not been approved .
 
-
-
 ```python
 train.groupby('Loan_Status')['ApplicantIncome'].mean().plot.bar()
 ```
 
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a22dbb290>
 
-
-
-
-![png](output_44_1.png)
+![png](/loanPredictiongraphs/output_44_1.png)
 
 
 There is no big inference we can get from here,so i will group the incomes into diferent categories or bins.
@@ -713,23 +467,14 @@ P = plt.ylabel('Percentage')
 
     <matplotlib.axes._subplots.AxesSubplot at 0x1a232516d0>
 
-
-
-
-
-
     Text(0.5,0,'Applicants Income')
 
-
-
-
-![png](output_46_2.png)
+![png](/loanPredictiongraphs/output_46_2.png)
 
 
 From the output above ,it seems income doest influence a loans approval or not.This is contradicting our initial hypothesis.
 
 Analysis of coapllicants income will also be done in the same way.
-
 
 ```python
 bins=[0,1000,3000,42000]
@@ -741,33 +486,19 @@ plt.xlabel('Coapplicant\'s Income')
 P = plt.ylabel('Percentage')
 ```
 
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a22f4f1d0>
-
-
-
-
-
 
     Text(0.5,0,"Coapplicant's Income")
 
-
-
-
-![png](output_48_2.png)
+![png](/loanPredictiongraphs/output_48_2.png)
 
 
 From the output,we can easily infer that the lower the income of the coaplicant,the hire the chance of a loan being approved.Mmmh!This is unrealistic!This can be a caused by the fact that most applicants do not have coapplicants so this value remains 0.This makes the loan approval not dependent on coaplicants income.
 
 To tackle this problem i will create a *new variable* by combiningthe two variables and visualize the total effect in Loan status.
 
-
 ```python
 train['Total_Income'] = train['ApplicantIncome']+train['CoapplicantIncome']
-
-
 bins=[0,2500,4000,6000,81000]
 group=['Low','Average','High', 'Very high']
 train['Total_Income_bin']=pd.cut(train['Total_Income'],bins,labels=group)
@@ -776,29 +507,15 @@ Total_Income_bin.div(Total_Income_bin.sum(1).astype(float), axis=0).plot(kind="b
 plt.xlabel('Total_Income')
 P = plt.ylabel('Percentage')
 ```
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a23378110>
-
-
-
-
-
 
     Text(0.5,0,'Total_Income')
 
-
-
-
-![png](output_50_2.png)
-
+![png](/loanPredictiongraphs/output_50_2.png)
 
 Now there is some sanity!
 
 I will now visualize the loan amount variable.
-
 
 ```python
 
@@ -810,35 +527,19 @@ LoanAmount_bin.div(LoanAmount_bin.sum(1).astype(float), axis=0).plot(kind="bar",
 plt.xlabel('LoanAmount')
 P = plt.ylabel('Percentage')
 ```
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a234719d0>
-
-
-
-
-
 
     Text(0.5,0,'LoanAmount')
 
-
-
-
-![png](output_52_2.png)
-
+![png](/loanPredictiongraphs/output_52_2.png)
 
 The propotion for approved loans is higher for low low and average and lower for high loan applications.
 
 I will now drop the bins i created and change the 3+ to 3 to make it a numerical variable.I will also convert the target variable(LoanStatus) into 0 and 1
 
-
 ```python
 train=train.drop(['Income_bin', 'Coapplicant_Income_bin', 'LoanAmount_bin', 'Total_Income_bin', 'Total_Income'], axis=1)
 ```
-
-
 ```python
 train['Dependents'].replace('3+',3,inplace = True)
 test['Dependents'].replace('3+',3,inplace = True)
@@ -849,22 +550,14 @@ train['Loan_Status'].replace('Y',1,inplace = True)
 
 From here i will investigate the correlation of all numerical variables.
 
-
 ```python
 matrix = train.corr()
 f,ax = plt.subplots(figsize = (9,6))
 sns.heatmap(matrix,vmax = 0.8,square = True,cmap = "BuPu")
 ```
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a2352ebd0>
-
-
-
-
-![png](output_57_1.png)
+    
+![png](/loanPredictiongraphs/output_57_1.png)
 
 
 Most correlated variables are.
@@ -883,9 +576,6 @@ I will start by counting the missing values from each variable.
 train.isnull().sum()
 ```
 
-
-
-
     Loan_ID               0
     Gender               13
     Married               3
@@ -901,12 +591,9 @@ train.isnull().sum()
     Loan_Status           0
     dtype: int64
 
-
-
 Mmmh looks like  I have some missing values in Gender,Married,Dependents,Self_Employed,Loan Amount,Loan amount term and credit history features.
 
 I will impute all nnumerical values by mean or median and for categorical variablies i wil impute the missing values by mode.
-
 
 ```python
 train['Gender'].fillna(train["Gender"].mode()[0],inplace = True)
@@ -942,11 +629,7 @@ train['Loan_Amount_Term'].value_counts()
     12.0       1
     Name: Loan_Amount_Term, dtype: int64
 
-
-
 The loan amount value 360 is the highest occuring so i am going to replace the missing values by 360
-
-
 
 ```python
 train['Loan_Amount_Term'].fillna(train["Loan_Amount_Term"].mode()[0],inplace = True)
@@ -1012,36 +695,15 @@ plt.xlabel("LoanAmount")
 plt.ylabel("Frequency")
 ```
 
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x1a23698cd0>
-
-
-
-
-
 
     Text(0.5,1,'Current LoanAmount')
 
-
-
-
-
-
     Text(0.5,0,'LoanAmount')
-
-
-
-
-
 
     Text(0,0.5,'Frequency')
 
-
-
-
-![png](output_74_4.png)
+![png](/loanPredictiongraphs/output_74_4.png)
 
 
 
@@ -1084,7 +746,7 @@ test['LoanAmount_log'] = np.log(train['LoanAmount'])
 
 
 
-![png](output_75_4.png)
+![png](/loanPredictiongraphs/output_75_4.png)
 
 
 After transforming the LoanaAmount values,I now have an almost normaly distributed data.
@@ -2453,7 +2115,7 @@ plt.show()
 
 
 
-![png](output_95_5.png)
+![png](/loanPredictiongraphs/output_95_5.png)
 
 
 Here the AUC is 1.0.I will make a predicted submissions in my sub file.
@@ -2532,8 +2194,7 @@ sns.distplot(train['EMI'])
 
 
 
-
-![png](output_105_1.png)
+![png](/loanPredictiongraphs/output_105_1.png)
 
 
 
@@ -2555,7 +2216,7 @@ sns.distplot(train['Balance Income'])
 
 
 
-![png](output_107_1.png)
+![png](/loanPredictiongraphs/output_107_1.png)
 
 
 
