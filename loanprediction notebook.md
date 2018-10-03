@@ -1,10 +1,6 @@
 
 # Problem Statement
-This is a loab approvement problem.I am supposd to predict whether a loan will be approved or not.I am going to answer this question by performing thorough feature ingeneering to see the relationships within the explantory variables.This work is devided into the following categories.
-
-    1 Package Importing
-    2 Reading in the data
-    3 Understanding Data
+This is a loab approvement problem.I am supposd to predict whether a loan will be approved or not.I am going to answer this question by performing thorough feature ingeneering to see the relationships within the explantory variables.
 
 # Gettting system ready and loading the data.
 Getting system ready and loading data.
