@@ -53,7 +53,7 @@ The train dataset has 12 explanatory variables and one taerget variable ,i.e Loa
 
 ```python
 test.columns
-```1§§§§§§§§§§§§§§§§§§1
+```
     Index([u'Loan_ID', u'Gender', u'Married', u'Dependents', u'Education',
            u'Self_Employed', u'ApplicantIncome', u'CoapplicantIncome',
            u'LoanAmount', u'Loan_Amount_Term', u'Credit_History',
@@ -1276,8 +1276,6 @@ submission
 <p>367 rows × 3 columns</p>
 </div>
 
-
-
 # Logistic Regression using stratified k-folds cross validation.
 I will now check how robust my model is to unseen data and for this i will use what is known as k fold cross validation.
 
@@ -2112,10 +2110,6 @@ plt.show()
 
     <matplotlib.legend.Legend at 0x1a23f3d690>
 
-
-
-
-![png](/loanPredictiongraphs/output_95_5.png)
 
 
 Here the AUC is 1.0.I will make a predicted submissions in my sub file.
