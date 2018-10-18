@@ -1,6 +1,6 @@
 
 # Problem Statement
-This is a loab approvement problem.I am supposd to predict whether a loan will be approved or not.I am going to answer this question by performing thorough feature ingeneering to see the relationships within the explantory variables.
+This is a loan approvement problem.I am supposd to predict whether a loan will be approved or not.I am going to answer this question by performing thorough feature ingeneering to see the relationships within the explantory variables.
 
 # Gettting system ready and loading the data.
 Getting system ready and loading data.
