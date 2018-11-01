@@ -319,7 +319,7 @@ plt.legend(loc = "best")
 
 
 
-![png](/timeseriesFiles/output_24_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_24_1.png)
 
 
 * There is an increasing trend in the series .
@@ -343,7 +343,7 @@ train.groupby('year')['Count'].mean().plot.bar()
 
 
 
-![png](/timeseriesFiles/output_26_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_26_1.png)
 
 
 There is an exponential growth in the traffic with respect to year.
@@ -365,7 +365,7 @@ train.groupby('month')['Count'].mean().plot.bar()
 
 
 
-![png](/timeseriesFiles/output_28_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_28_1.png)
 
 
 This plot doesnt give us a satisfactory result as some years doent ave complete number of months.
@@ -384,7 +384,7 @@ temp.plot(figsize=(15,5), title= 'Passenger Count(Monthwise)', fontsize=14)
 
 
 
-![png](/timeseriesFiles/output_30_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_30_1.png)
 
 
 Above plot show an increasing trend in monthly passenger count and growth is aprox exponential.
@@ -403,7 +403,7 @@ train.groupby('day')['Count'].mean().plot.bar()
 
 
 
-![png](/timeseriesFiles/output_32_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_32_1.png)
 
 
 Theis daywise plot isn giving me alot of information.I will thus check thr mean hourly passenger count.
@@ -421,7 +421,7 @@ train.groupby('Hour')['Count'].mean().plot.bar()
 
 
 
-![png](/timeseriesFiles/output_34_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_34_1.png)
 
 
 The peak traffic is at 7 pm and then we see a decreasing trend till 5 am.
@@ -444,7 +444,7 @@ train.groupby('weekend')['Count'].mean().plot.bar()
 
 
 
-![png](/timeseriesFiles/output_36_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_36_1.png)
 
 
 Okay so my hpothesis is validated.
@@ -464,7 +464,7 @@ train.groupby('day_of_week')['Count'].mean().plot.bar()
 
 
 
-![png](/timeseriesFiles/output_38_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_38_1.png)
 
 
 Its evident again that weekends has the least passenger count compared to other days.
@@ -509,7 +509,7 @@ monthly.Count.plot(figsize = (16,8),title = "Hourly count",ax= axs[3])
 
 
 
-![png](/timeseriesFiles/output_43_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_43_1.png)
 
 
 So here the time series is becoming stable when i agregate it dayly weekly and monthly.
@@ -557,7 +557,7 @@ plt.legend(loc = "best")
 
 
 
-![png](/timeseriesFiles/output_49_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_49_1.png)
 
 
 ## 2. Modelling techniques
@@ -580,7 +580,7 @@ plt.show()
 ```
 
 
-![png](/timeseriesFiles/output_51_0.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_51_0.png)
 
 
 How accurate is this model?I will answer this question by doing a calculation of the RMSE
@@ -634,15 +634,15 @@ plt.show()
 ```
 
 
-![png](/timeseriesFiles/output_55_0.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_55_0.png)
 
 
 
-![png](/timeseriesFiles/output_55_1.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_55_1.png)
 
 
 
-![png](/timeseriesFiles/output_55_2.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_55_2.png)
 
 
 The predictions are getting weaker as i ad more observations.
@@ -675,7 +675,7 @@ plt.show()
 ```
 
 
-![png](/timeseriesFiles/output_59_0.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_59_0.png)
 
 
 
@@ -708,7 +708,7 @@ plt.show()
 ```
 
 
-![png](/timeseriesFiles/output_62_0.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_62_0.png)
 
 
 
@@ -727,7 +727,7 @@ plt.show()
 ```
 
 
-![png](/timeseriesFiles/output_63_0.png)
+![png](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseriesFiles/output_63_0.png)
 
 
 This shows an increasing trend.
