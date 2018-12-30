@@ -15,5 +15,5 @@ Loan approval is a very crucial part in any financial institutions.This project 
 
 # Short Python projects and tutorials.
 
-1. Univariate Statistics - [T-tests in python.]()
+1. Univariate Statistics - [T-tests in python.](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/t-tests.ipynb)
 
