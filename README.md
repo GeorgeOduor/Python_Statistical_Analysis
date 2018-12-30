@@ -13,7 +13,7 @@ A transport company wants to invest in a new expensive service and they have to 
 
 Loan approval is a very crucial part in any financial institutions.This project is aimed at predicting the loan aproval for clients based on their data such as applicant income,loan amount and others.
 
-# Short Python projrcts and tutorials.
+# Short Python projects and tutorials.
 
 1. Univariate Statistics - [T-tests in python.]()
 
