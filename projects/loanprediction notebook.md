@@ -759,7 +759,7 @@ I will wcaluate my model using any of the following:
 
 **Accuracy**:This can be deine by the use of a confusion matrix.
     A confusion matrix has the following main parts:
-* True Negative - Targets which are actually true$(Y)$ and we have predicted them true$(Y)$.
+* True Positive - Targets which are actually true$(Y)$ and we have predicted them true$(Y)$.
 * True Negative - Targets which are actually false $(N)$ and we have predicted them false $(N)$
 * False Positive - Targets which are actually false $(N)$ but we have predicted them true$(Y)$
 * False Negative - Targets which are actually true $(Y)$ but we have predicted them false $(N)$
