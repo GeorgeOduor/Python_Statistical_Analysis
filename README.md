@@ -5,8 +5,7 @@ Python statistics analysis projects
 
 Here is a list of my data science projrcts in Python.
 
-1.  [**Classification Algorithm with Logistic Regression.
-¶**(Data Analysis)]()
+1.  [**Classification Algorithm with Logistic Regression.**(Data Analysis)]()
 
 This project shows a thorough classification modelling with logisticregression in python.The project predicts whether an ad will be clicked by a user or not based on the features.Data is an advertising data collected by a team of data scientists over the year 2016.Click the above link to see more.
 
