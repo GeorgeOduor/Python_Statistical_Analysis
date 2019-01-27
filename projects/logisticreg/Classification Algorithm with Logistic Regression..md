@@ -31,7 +31,7 @@
 <a id="1"></a> 
 ## Introduction to this project.
 ### Business Value
-<img src='adds.png'/>
+<img src=''/>
 Advertisemnt is a very important undertaking for any serious business out there.It is obvious in the business domain that advertisement is there to inform to ,educate and remind customers of a new product or a service.In order for any business to continue investing in ads,the management needs to be very sure if their ads are getting noticed by usersor even how likely their ad will be noticed.It is also important for advertisng firms to know which ads are more likely to be clicked by users so that they concentarate on them and find a way to improve the ones that are not geting noticed.This in turn will increase their profits either way.
 
 <a id="2"></a> 
@@ -485,6 +485,7 @@ sns.countplot(ad_data['Clicked on Ad'])
 
 
 ![png](output_13_1.png)
+
 
 
 2. Explanatory variables
