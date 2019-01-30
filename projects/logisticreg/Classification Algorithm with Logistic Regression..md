@@ -983,4 +983,4 @@ Among the observations realized in this project are:
 
 [back to top](#top)
 
-This is an original work done by George | Statistician and data science and ML enthusiast.
+This is an original work done by George | Statistician , data scientist and ML enthusiast.
