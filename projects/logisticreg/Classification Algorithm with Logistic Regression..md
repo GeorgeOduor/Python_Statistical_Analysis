@@ -71,31 +71,31 @@ Again,this probability p must be less than one so we will devide p by a larger n
 
 Now based on 1,2,and 3,we can reorganize the probability p to
 
-$$p(x) = \frac{e^y}{1+e^y}$$
+![eq4](https://latex.codecogs.com/gif.latex?p%28x%29%20%3D%20%5Cfrac%7Be%5Ey%7D%7B1&plus;e%5Ey%7D)
 
 But q = 1-p ,therefore;
 
-$$q(x) = 1-\frac{e^y}{1+e^y}$$
+![eq5](https://latex.codecogs.com/gif.latex?q%28x%29%20%3D%201-%5Cfrac%7Be%5Ey%7D%7B1&plus;e%5Ey%7D)
 
-$$=\frac{1+e^y - e^y}{1+e^y}$$
+![eq6](https://latex.codecogs.com/gif.latex?%3D%5Cfrac%7B1&plus;e%5Ey%20-%20e%5Ey%7D%7B1&plus;e%5Ey%7D)
 
-$$=\frac{1}{1+e^y}$$
+![eq7](https://latex.codecogs.com/gif.latex?%3D%5Cfrac%7B1%7D%7B1&plus;e%5Ey%7D)
 
 hence ;
 
-$$\frac{p(x)}{1-p(x)} = \frac{e^y}{1+e^y} \div \frac{1}{1+e^y}$$
+![eq8](https://latex.codecogs.com/gif.latex?%24%24%5Cfrac%7Bp%28x%29%7D%7B1-p%28x%29%7D%20%3D%20%5Cfrac%7Be%5Ey%7D%7B1&plus;e%5Ey%7D%20%5Cdiv%20%5Cfrac%7B1%7D%7B1&plus;e%5Ey%7D%24%24)
 
-$$\frac{p(x)}{1-p(x)} = \frac{e^y}{1+e^y} \times \frac{1+e^y}{1}$$
+![eq9](https://latex.codecogs.com/gif.latex?%24%24%5Cfrac%7Bp%28x%29%7D%7B1-p%28x%29%7D%20%3D%20%5Cfrac%7Be%5Ey%7D%7B1&plus;e%5Ey%7D%20%5Ctimes%20%5Cfrac%7B1&plus;e%5Ey%7D%7B1%7D%24%24)
 
-$$\frac{p(x)}{1-p(x)} = e^y$$
+![eq10](https://latex.codecogs.com/gif.latex?%24%24%5Cfrac%7Bp%28x%29%7D%7B1-p%28x%29%7D%20%3D%20e%5Ey%24%24)
 
 now taking the log both sides we have:
 
-$$ln(\frac{p(x)}{1-p(x)} )=ln( e^y)$$
+![eq10](https://latex.codecogs.com/gif.latex?%24%24ln%28%5Cfrac%7Bp%28x%29%7D%7B1-p%28x%29%7D%20%29%3Dln%28%20e%5Ey%29%24%24)
 
-$$ln(\frac{p(x)}{1-p(x)} )= \beta_0+\beta_1 x_i$$
+![eq11](https://latex.codecogs.com/gif.latex?%24%24ln%28%5Cfrac%7Bp%28x%29%7D%7B1-p%28x%29%7D%20%29%3D%20%5Cbeta_0&plus;%5Cbeta_1%20x_i%24%24)
 
-And there we are at the logistic regression equation,with $\frac{p(x)}{1-p(x)}$ as the odd ratio.
+And there we are at the logistic regression equation,with ![img](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bp%28x%29%7D%7B1-p%28x%29%7D) as the odd ratio.
 
 ### Describing performance of a ligistic regression.
 
