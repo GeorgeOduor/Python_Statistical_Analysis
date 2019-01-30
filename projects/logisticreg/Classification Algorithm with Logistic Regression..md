@@ -46,7 +46,7 @@ Logistic regression is a Classification Machine learning algorithm that groups o
 
 The fundamental generalised linear model takes the form:
 
-$$g(E(y)) = \beta_0+\beta_1 x_i$$
+![glmequation](https://latex.codecogs.com/gif.latex?g%28E%28y%29%29%20%3D%20%5Cbeta_0&plus;%5Cbeta_1%20x_i)
 where;
 
 $g():$ is the link function
