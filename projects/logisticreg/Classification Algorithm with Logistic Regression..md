@@ -47,25 +47,27 @@ Logistic regression is a Classification Machine learning algorithm that groups o
 The fundamental generalised linear model takes the form:
 
 ![glmequation](https://latex.codecogs.com/gif.latex?g%28E%28y%29%29%20%3D%20%5Cbeta_0&plus;%5Cbeta_1%20x_i)
+
+
 where;
 
-$g():$ is the link function
+g():$ is the link function
 
-$E(y):$ is the expectation of the response variable.
+E(y):$ is the expectation of the response variable.
 
-$\beta_0+\beta_1 x_i:$ is the linear predictor.
+![linearequation](https://latex.codecogs.com/gif.latex?%5Cbeta_0&plus;%5Cbeta_1%20x_i) is the linear predictor.
 
 Lets say we have the following linear equation:
 
-$$g(y) = \beta_0+\beta_1x_i -------------->1$$
+![equation1](https://latex.codecogs.com/gif.latex?g%28y%29%20%3D%20%5Cbeta_0&plus;%5Cbeta_1%20x_i) -------------->1
 
 And we know that logistic regression is concerned with probability of success or failure.The probabilities are mutualy exclusive.In order to get the probability of success which is represented with p,the following equation holds.
 
-$$p(x) = e^{(\beta_0+\beta_1 x_i)} -------------->2$$
+![equation2](https://latex.codecogs.com/gif.latex?p%28x%29%20%3D%20e%5E%7B%28%5Cbeta_0&plus;%5Cbeta_1%20x_i%29%7D) -------------->2$$
 
 Again,this probability p must be less than one so we will devide p by a larger number.
 
-$$p(x) = \frac{e^{(\beta_0+\beta_1 x_i)}}{e^{(\beta_0+\beta_1 x_i)}+1} -------------->3$$
+![equation3](https://latex.codecogs.com/gif.latex?p%28x%29%20%3D%20%5Cfrac%7Be%5E%7B%28%5Cbeta_0&plus;%5Cbeta_1%20x_i%29%7D%7D%7Be%5E%7B%28%5Cbeta_0&plus;%5Cbeta_1%20x_i%29%7D&plus;1%7D) -------------->3
 
 Now based on 1,2,and 3,we can reorganize the probability p to
 
