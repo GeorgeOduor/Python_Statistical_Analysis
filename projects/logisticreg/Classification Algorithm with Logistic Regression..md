@@ -26,7 +26,7 @@
     
 1. [Model Depolyment.](#10)
 
-1. [Conclution.](#11)
+1. [Conclusion.](#11)
 
 <a id="1"></a> 
 ## Introduction to this project.
