@@ -4,6 +4,9 @@
 Python statistics analysis projects
 
 Here is a list of my data science projrcts in Python.
+1. [**K Nearest Neighbours Classification.**](https://github.com/GeorgeOduor/KNN-Algorithm)
+
+This an anonymised data classification project with KNN algorithm.The projects give a 95% accuracy after improvement by feature scalling and hyper parameter tuning.
 
 1.  [**Classification Algorithm with Logistic Regression.**(Data Analysis)](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/logisticreg/Classification%20Algorithm%20with%20Logistic%20Regression..md)
 
