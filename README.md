@@ -4,7 +4,7 @@
 Python statistics analysis projects
 
 Here is a list of my data science projrcts in Python.
-1. [**K Nearest Neighbours Classification.**](https://github.com/GeorgeOduor/KNN-Algorithm)
+1. [**K Nearest Neighbours Classification.**](https://github.com/GeorgeOduor/KNN-Algorithm)(Anonimized Data Frame.
 
 This an anonymised data classification project with KNN algorithm.The projects give a 95% accuracy after improvement by feature scalling and hyper parameter tuning.
 
