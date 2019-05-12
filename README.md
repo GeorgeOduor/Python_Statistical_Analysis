@@ -12,7 +12,7 @@ This project predicts whether a customer is credit worthy or not using Decision 
 
 This an anonymised data classification project with KNN algorithm.The projects give a 95% accuracy after improvement by feature scalling and hyper parameter tuning.
 
-3.  [**Classification Algorithm with Logistic Regression.**(Data Analysis)](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/logisticreg/Classification%20Algorithm%20with%20Logistic%20Regression..md)
+3.  [**Classification Algorithm with Logistic Regression.**(Data Analysis)](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/logisticRegression.ipynb)
 
 This project shows a thorough classification modelling with logisticregression in python.The project predicts whether an ad will be clicked by a user or not based on the features.Data is an advertising data collected by a team of data scientists over the year 2016.Click the above link to see more.
 
