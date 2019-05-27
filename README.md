@@ -4,9 +4,11 @@
 Python statistics analysis projects
 
 Here is a list of my data science projrcts in Python.
-1. [**K-Means Clustering**](https://github.com/GeorgeOduor/unsupervised-learning/blob/master/k-means%20clustering/kmeans.ipynb)Customer Segmentation
+1. [**K-Means Clustering**](https://github.com/GeorgeOduor/unsupervised-learning/blob/master/k-means%20clustering/kmeans.ipynb)- Customer Segmentation
 1. [**Decision Trees Classification**](https://github.com/GeorgeOduor/decisiontrees)
+
 This project predicts whether a customer is credit worthy or not using Decision tree classification algorithm.
+
 1. [**K Nearest Neighbours Classification.**](https://github.com/GeorgeOduor/KNN-Algorithm)(Anonimized Data Frame.
 
 This an anonymised data classification project with KNN algorithm.The projects give a 95% accuracy after improvement by feature scalling and hyper parameter tuning.
