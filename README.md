@@ -4,13 +4,20 @@
 Python statistics analysis projects
 
 Here is a list of my data science projrcts in Python.
-1. [**K-Means Clustering**](https://github.com/GeorgeOduor/unsupervised-learning/tree/master/k-means%20clustering)- Customer Segmentation
-2. [**Decision Trees Classification**](https://github.com/GeorgeOduor/decisiontrees)
+### Supervised Learning
+1. [**Decision Trees Classification**](https://github.com/GeorgeOduor/decisiontrees)
 This project predicts whether a customer is credit worthy or not using Decision tree classification algorithm.
 1. [**K Nearest Neighbours Classification.**](https://github.com/GeorgeOduor/KNN-Algorithm)(Anonimized Data Frame.
 This an anonymised data classification project with KNN algorithm.The projects give a 95% accuracy after improvement by feature scalling and hyper parameter tuning.
 1.  [**Classification Algorithm with Logistic Regression.**(Data Analysis)](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/logisticRegression.ipynb)
 This project shows a thorough classification modelling with logisticregression in python.The project predicts whether an ad will be clicked by a user or not based on the features.Data is an advertising data collected by a team of data scientists over the year 2016.Click the above link to see more.
+### Unsupervised Learning
+
+1. [**K-Means Clustering**](https://github.com/GeorgeOduor/unsupervised-learning/tree/master/k-means%20clustering)- Customer Segmentation
+
+1. [**Hierarchical Clustering**]()
+
+### Data Science Competions-Analystics Vidhya
 1.  [**CREATING A TIME SERIES FORECAST**](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseries.md)-Transport industry
 A transport company wants to invest in a new expensive service and they have to be sure on the revenue this service will earn in the next 18 months.To achieve this they want their passenger count to be predicted for the next seven months.Historical data showing passenger count per day per hour is provided.
 
