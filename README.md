@@ -11,11 +11,11 @@ This project predicts whether a customer is credit worthy or not using Decision 
 This an anonymised data classification project with KNN algorithm.The projects give a 95% accuracy after improvement by feature scalling and hyper parameter tuning.
 1.  [**Classification Algorithm with Logistic Regression.**(Data Analysis)](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/logisticRegression.ipynb)
 This project shows a thorough classification modelling with logisticregression in python.The project predicts whether an ad will be clicked by a user or not based on the features.Data is an advertising data collected by a team of data scientists over the year 2016.Click the above link to see more.
-### Unsupervised Learning
+### Unsupervised [Learning.](https://github.com/GeorgeOduor/unsupervised-learning)
 
 1. [**K-Means Clustering**](https://github.com/GeorgeOduor/unsupervised-learning/tree/master/k-means%20clustering)- Customer Segmentation
 
-1. [**Hierarchical Clustering**]()
+1. [**Hierarchical Clustering**](https://github.com/GeorgeOduor/unsupervised-learning/tree/master/hierarchical%20clustering)
 
 ### Data Science Competions-Analystics Vidhya
 1.  [**CREATING A TIME SERIES FORECAST**](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseries.md)-Transport industry
