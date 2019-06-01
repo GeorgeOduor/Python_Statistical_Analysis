@@ -1,4 +1,4 @@
-![GitHub Logo](/loanPredictiongraphs/python1.png)
+<center>![GitHub Logo](/loanPredictiongraphs/python1.png)</center>
 # Python_Statistical_Analysis(Machine Learning)
 
 Python statistics analysis projects
