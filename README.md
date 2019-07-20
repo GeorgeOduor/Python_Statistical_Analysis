@@ -17,7 +17,7 @@ This project shows a thorough classification modelling with logisticregression i
 
 1. [**Hierarchical Clustering**](https://github.com/GeorgeOduor/unsupervised-learning/tree/master/hierarchical%20clustering)
 
-### Data Science Competions-Analystics Vidhya
+### Data Science Projects-Analystics Vidhya
 1.  [**CREATING A TIME SERIES FORECAST**](https://github.com/GeorgeOduor/Python_Statistical_Analysis/blob/master/projects/timeseries.md)-Transport industry
 A transport company wants to invest in a new expensive service and they have to be sure on the revenue this service will earn in the next 18 months.To achieve this they want their passenger count to be predicted for the next seven months.Historical data showing passenger count per day per hour is provided.
 
