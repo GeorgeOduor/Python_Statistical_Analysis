@@ -5,6 +5,8 @@ Python statistics analysis projects
 
 Here is a list of my data science projrcts in Python.
 ### Supervised Learning
+1. [Telcom Churn Prediction with multiole models(Logistic Regression,Random Forests,Decision trees and Neural nets)]()
+A thorough look into customer behaviour trend and churn.The project investigated the factors that lead to customer churn and predicted the probability of a client churn with 97% accuracy.
 1. [**Decision Trees Classification**](https://github.com/GeorgeOduor/decisiontrees)
 This project predicts whether a customer is credit worthy or not using Decision tree classification algorithm.
 1. [**K Nearest Neighbours Classification.**](https://github.com/GeorgeOduor/KNN-Algorithm)(Anonimized Data Frame.
